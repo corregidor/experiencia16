@@ -1,0 +1,62 @@
+La prueba consta de 5 items
+Cada item vale 2 puntos
+Dentro de cada item se espera:
+	a) Indentacion correcta : 0.5 pt
+	b) Correcto uso del lenguaje: 0.5 pt 
+	c) Resolución del problema: 1 pt
+
+
+Item 1 : Menu
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5
+c) Resolución del problema: 0.5
+Comentarios:
+No debe mostrar el archivo por pantalla, cuando se coloca una opcion diferente no sale del menu,
+cosa que era solicitada, lastima caerse en eso, pero hay que leer bien los requerimientos. 
+Excelente desarrollo de los métodos, reutilización de código, se nota un claro manejo del lenguaje,
+aplicación diferente y original, utilización de varios métodos de ruby para realizar diferentes cosas. Felicitaciones!!!!. Despues de entrar a un menu no se entiende como seguir.
+
+Item 2 : Promedios por alumnos en archivo adicional
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+Comentarios:
+Comentarios en el código.
+
+Item 3 : Conteo de inasistencias totales en pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+Comentarios:
+podria verse más ordenado en pantalla.
+
+Item 4 : Alumnos aprobados por pantalla
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+Comentarios:
+Sólo se pedia que la nota fuera 5.0, sin embargo el ejercicio planteado va mucho mas allá al
+parametrizar aquello, buena solución, falta un aviso más claro al usuario que debe ingresar un numero
+y que este significará la nota de corte.
+
+
+
+Item 5 : Salir
+
+a) Indentación correcta: 0.5
+b) Correcto uso del lenguaje: 0.5 
+c) Resolución del problema: 1.0
+
+Comentarios finales:
+Si bien una parte del menu no se entendió, en general el código es bastante bueno, falta mejorar
+la experiencia de usuario en cuanto a la visualización sin duda el uso de metodos es de un nivel superior
+No descuidar el orden en la visualizacion de los datos.
+
+
+
+
+  

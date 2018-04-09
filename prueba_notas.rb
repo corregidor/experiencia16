@@ -41,6 +41,9 @@ def promedio(notas)
   notas.each do |data|
     suma = 0.0
     data.each { |dato| suma += dato.to_f if dato.to_s != 'A' }
+    # tambien funciona con : data.each { |dato| suma += dato.to_f  }
+    #recuerda que al hacer cada dato como.to_f o to_i el valor character pasa a ser cero
+    #por lo que ese if estaría demás
     suma /= (data.length - 1)
     prueba_notas << "#{data.first}, #{suma}\n"
   end
@@ -51,6 +54,7 @@ def arch_promedio(notas, nombre_arch)
   prueba_notas = promedio(notas)
   graba_archivo(prueba_notas, nombre_arch)
 end
+#excelente!
 
 def muestra_inasistencias(notas)
   tot_inasis = 0
@@ -117,6 +121,8 @@ loop do
     menu_opcion1
     seleccion = gets.chomp.to_s
     seleccion = 'promedio' if seleccion.empty?
+    #genera confusion ya que debe ingresar dos veces el uno para generar el archivo,
+    #mala experiencia de usuario, buen desarrollo del código
     seleccion << '.csv'
     arch_promedio(notas, seleccion)
   when 2
