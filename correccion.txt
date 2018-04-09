@@ -53,7 +53,8 @@ c) Resolución del problema: 1.0
 
 Comentarios finales:
 Si bien una parte del menu no se entendió, en general el código es bastante bueno, falta mejorar
-la experiencia de usuario en cuanto a la visualización sin duda el uso de metodos es de un nivel superior
+la experiencia de usuario en cuanto a la visualización en pantalla,
+ sin duda el uso de metodos de ruby es de un nivel superior.
 No descuidar el orden en la visualizacion de los datos.
 
 
